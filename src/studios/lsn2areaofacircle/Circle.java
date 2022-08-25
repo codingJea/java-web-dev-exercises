@@ -1,4 +1,4 @@
-package studios.areaofacircle;
+package studios.lsn2areaofacircle;
 
 public class Circle {
     public static Double getArea(Double radius) {

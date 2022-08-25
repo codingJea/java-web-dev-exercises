@@ -1,9 +1,7 @@
-package studios.areaofacircle;
+package studios.lsn2areaofacircle;
 
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
-import static java.lang.Math.PI;
 
 public class Area {
     public static void main(String[] args) {

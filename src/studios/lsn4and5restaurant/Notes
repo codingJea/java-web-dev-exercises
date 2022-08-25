@@ -1,0 +1,19 @@
+MENU CLASS
+- list of menu items (type: ArrayList<MenuItem>)
+- date last updated (type: Date)
+
+MENUITEM CLASS
+- item name (type: String)
+- item description (type: String)
+- item category (type: String)
+- (ALTERNATIVE) item category (type: ItemCategory (enum))
+- item price (type: double)
+- item's new status (type: boolean)
+
+MENU METHODS
+- add/remove menu items (consider: ArrayList methods)
+- tell if menu item is new (consider: new status getter)
+- tell when menu was last updated (consider: date getter and setter)
+- print out single item (consider: accessing ArrayList indices)
+- print out whole menu (consider: loop)
+- determine whether two menu items are equal (custom equals() method, consider adding id field to menu item)
