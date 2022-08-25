@@ -21,10 +21,11 @@ public class Restaurant {
 
 
 //        myMenu.showAll();
-        myMenu.remove();
+//        myMenu.remove();
 //        myMenu.addItem(poutine);
-        myMenu.showAll();
+//        myMenu.showAll();
 //        myMenu.showItem();
 //        myMenu.simpleShowItem(2);
+        myMenu.showLastUpdated();
     }
 }

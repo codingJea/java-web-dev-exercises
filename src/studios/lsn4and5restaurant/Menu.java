@@ -39,7 +39,8 @@ public class Menu {
 
     public void simpleShowItem(int index) {
         MenuItem theItem = this.items.get(index);
-        System.out.println(theItem.getName() + ": " + theItem.getPrice());
+//        System.out.println(theItem.getName() + ": " + theItem.getPrice());
+        System.out.println(theItem.toString());
     }
 
     public void showItem() {
@@ -53,7 +54,8 @@ public class Menu {
     public void showAll() {
         for (int i = 0; i < this.items.size(); i++) {
             MenuItem theItem = this.items.get(i);
-            System.out.println(String.format("%s) %s: %s", i + 1, theItem.getName(), theItem.getPrice()));
+//            System.out.println(String.format("%s) %s: %s", i + 1, theItem.getName(), theItem.getPrice()));
+            System.out.println(String.format("%s) %s", i + 1, theItem.toString()));
         }
     }
 
@@ -63,6 +65,10 @@ public class Menu {
 
     public void setLastUpdated(Date lastUpdated) {
         this.lastUpdated = lastUpdated;
+    }
+
+    public void showLastUpdated() {
+        System.out.println(String.format("The menu was last updated on: %s", this.getLastUpdated()));
     }
 
     public ArrayList<MenuItem> getItems() {
